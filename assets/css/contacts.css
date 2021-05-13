@@ -1,0 +1,45 @@
+body{
+    margin: 0px;
+    font-family: sans-serif;
+    text-align: center;
+}
+#heading{
+    text-align: center;
+    margin-top: 25px;
+    color: gray;
+}
+#container ul{
+    padding: 0px;
+    list-style-type: none;
+    margin: 20px auto 20px auto;
+    width: 25vw;
+}
+.contact{
+    padding: 3px 10px;
+    border: 1px solid white;
+    background-color: rgb(103, 216, 253);
+    box-shadow: 1px 1px 1px 1px lightgray;
+    color: white;
+    display: flex;
+}
+.contact .details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+}
+.contact p{
+    margin: 5px 0px;
+}
+.contact .delbtn{
+    width: 10%;
+    padding: 3px;
+    text-align: center;
+    margin-top: 5px;
+    margin: auto;
+    margin-right: 2px;
+}
+.conatct .delbtn a{
+    color: white;
+    background-color: red;
+}
